@@ -1,0 +1,84 @@
+header {
+    background-color: white;
+    border-bottom: 3px solid #ddd;
+    padding: 25px 10%;
+    display: flex;
+}
+
+header .logo {
+    width: 50%;
+}
+
+header .social {
+    width: 50%;
+
+}
+
+.social p {
+    text-align: center;
+    color: gray;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+
+}
+
+footer .copyr {
+    color: gray;
+}
+
+.form-area {
+    background-color: white;
+    padding: 15px;
+    width: 360px;
+    border-radius: 8px;
+}
+
+.video-area {
+    padding-right: 15px;
+}
+
+.notes {
+    color: gray;
+    font-size: 14px;
+}
+
+.subtitle {
+    color: gray;
+}
+
+input {
+    background: #f6f6f6;
+    border-radius: 3px;
+    padding: 6px 15px;
+    border: solid 1px darkgray;
+    height: 40px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+button {
+    color: white;
+    background-color: rgb(105, 155, 31);
+    border-radius: 3px;
+    padding: 6px 15px;
+    border: solid 1px rgb(255, 255, 255);
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+
+
+main .content {
+    display: flex;
+    padding: 50px 10%;
+    background-color: #f5f5f5;
+    justify-content: center;
+    flex-wrap: wrap;
+}
